@@ -13,7 +13,7 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
     SOURCE_TXT = """<b>📌 NOTE:</b> Dexter is a Private project 🔒  
 
 <b> 👑 OWNER:</b> <a href=https://t.me/alluvichu>Dark Hunter ❦</a>"""
-    MANUALFILTER_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dexter will respond whenever a keyword is found the message
 
