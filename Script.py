@@ -1,14 +1,15 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-🥰 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,𝙸 AM A MOVIE BOT, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 REQUEST MOVIES 🤗🎬"""
+🥰 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,I AM A MOVIE BOT!!
+JUST ADD ME TO YOUR GROUPS & REQUEST MOVIES 🤗🎬"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {} 😎
-👑 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/alluvichu</a>
+    ABOUT_TXT = """🐶 𝙼𝚈 𝙽𝙰𝙼𝙴: {} 
+👑 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/alluvichu>Dark Hunter ❦</a>
 ⚖ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 🎀 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ⚙ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>📌NOTE:</b> Dexter is a Private project 🔒  
+    SOURCE_TXT = """<b>📌 NOTE:</b> Dexter is a Private project 🔒  
 
 <b> 👑 OWNER:</b> <a href=https://t.me/alluvichu>Dark Hunter ❦</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
