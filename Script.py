@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """Hy {},
 My name is <a href=https://t.me/{}>{}</a>,
-I AM A MOVIE BOT!!
-Just add me to your groups and request Movies/Series 😍🎬"""
+
+I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬"""
     HELP_TXT = """HEY {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """🐶 My Name: {} 
