@@ -5,11 +5,11 @@ I AM A MOVIE BOT!!
 Just add me to your groups and request Movies/Series 😍🎬"""
     HELP_TXT = """HEY {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """🐶 I AM: {} 
-👑 CREATOR: <a href=https://t.me/alluvichu>Dark Hunter ❦</a>
-⚖ LIBRARY: PYROGRAM
-🎀 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: PYTHON 3
-⚙ BUILD STATUS: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    ABOUT_TXT = """🐶 My Name: {} 
+👑 Creator: <a href=https://t.me/alluvichu>Dark Hunter ❦</a>
+⚖ Library: Pyrogram
+🎀 Language: python 3
+⚙ Build status: v1.0.1 [ Beta ]"""
     SOURCE_TXT = """<b>📌 NOTE:</b> Dexter is a Private project 🔒  
 
 <b> 👑 OWNER:</b> <a href=https://t.me/alluvichu>Dark Hunter ❦</a>"""
