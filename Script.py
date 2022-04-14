@@ -8,7 +8,7 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
     ABOUT_TXT = """🐶 My Name: {} 
 👑 Creator: <a href=https://t.me/alluvichu>Dark Hunter ❦</a>
 ⚖ Library: Pyrogram
-🎀 Language: python 3
+🎀 Language: Python 3
 ⚙ Build status: v1.0.1 [ Beta ]"""
     SOURCE_TXT = """<b>📌 NOTE:</b> Dexter is a Private project 🔒  
 
@@ -88,7 +88,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """🔰 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 🔰 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 🔰 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 🔰 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
