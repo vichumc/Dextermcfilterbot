@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check my personal message 👀, I have sent the movie 😎🎬',show_alert = True)
+                await query.answer('Check my personal messge 👀, I hve sent the movie 😎🎬',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn!',show_alert = True)
         except PeerIdInvalid:
