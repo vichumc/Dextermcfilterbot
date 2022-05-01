@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat = await client.get_chat(grpid)
                     title = chat.title
                 except:
-                    await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
+                    await query.message.edit_text("Make sure I'm present in your Group!!", quote=True)
                     return
             else:
                 await query.message.edit_text(
@@ -210,8 +210,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}"),
-                InlineKeyboardButton("DELETE", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("BACK", callback_data="backcb")]
+                InlineKeyboardButton("DELETE🗑️", callback_data=f"deletecb:{group_id}")],
+            [InlineKeyboardButton("⏪BACK", callback_data="backcb")]
         ])
 
         await query.message.edit_text(
