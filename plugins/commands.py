@@ -22,10 +22,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⚡ Update Channel ⚡', url='https://t.me/moviesclubupdates')
+                InlineKeyboardButton('Update Channel ⚡', url='https://t.me/moviesclubupdates')
             ],
             [
-                InlineKeyboardButton('🐱‍🏍 Help 🐱‍🏍', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Help 🙂', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -75,7 +75,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔄 Try Again 🔄", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Join My Updates Channel to use me! 🥰**",
+            text="**Join My Updates Channel to use me‼️**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
