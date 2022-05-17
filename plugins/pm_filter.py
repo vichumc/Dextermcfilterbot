@@ -39,7 +39,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("Type the movie name your own and press the buttons‼️", show_alert=True)
+        return await query.answer("Type the movie name your own and Click the buttons‼️", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -117,7 +117,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("Spelling not correct,Click the correct Movie Name 👇.", show_alert=True)
+        return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('Checking for the Movie...🕵️')
     k = await manual_filters(bot, query.message, text=movie)
@@ -127,7 +127,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('SORRY, This Movie Not Available‼️')
+            k = await query.message.edit('SORRY,This Movie Not Available‼️')
             await asyncio.sleep(10)
             await k.delete()
 
