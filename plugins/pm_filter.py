@@ -117,7 +117,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
+        return await query.answer("Spelling not correct,Click the correct Movie Name 👇.", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('Checking for the Movie...🕵️')
     k = await manual_filters(bot, query.message, text=movie)
