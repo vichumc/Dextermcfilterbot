@@ -648,19 +648,19 @@ async def auto_filter(client, msg, spoll=False):
 <code>➲ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛɪɴɢ ɪɴ 5 ᴍɪɴᴜᴛᴇ</code>"""
     if imdb and imdb.get('poster'):
         try:
-            msg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            msg1 = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            msg = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            msg1 = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
-            msg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            msg1 = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        msg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        msg1 = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
      
-        await asyncio.sleep(600)
-        await msg.delete()
+    await asyncio.sleep(DELETE_TIME)
+    await msg1.delete()
 
     if spoll:
         await msg.message.delete()
