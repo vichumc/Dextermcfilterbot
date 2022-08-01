@@ -656,7 +656,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         msg1 = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
      
-    await asyncio.sleep(300)
+    await asyncio.sleep(120)
     await msg1.delete()
 
     if spoll:
@@ -697,7 +697,7 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if not movielist:
         k = await msg.reply("I couldn't find anything. Check your spelling‼️")
-        await asyncio.sleep(8)
+        await asyncio.sleep(10)
         await k.delete()
         return
     SPELL_CHECK[msg.message_id] = movielist
@@ -708,7 +708,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("Spelling not correct‼️ \nClick correct Movie Name 👇", reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply("SPELLING NOT CORRECT‼️ \nCLICK CORRECT MOVIE NAME FROM BELOW 👇", reply_markup=InlineKeyboardMarkup(btn))
     
 
 async def manual_filters(client, message, text=False):
