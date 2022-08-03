@@ -711,7 +711,8 @@ async def advantage_spell_chok(msg):
     k = await msg.reply("SPELLING NOT CORRECT‼️ \nCLICK CORRECT MOVIE NAME FROM BELOW 👇", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
     await k.delete(5)
-    async def manual_filters(client, message, text=False):
+    
+async def manual_filters(client, message, text=False):
     group_id = message.chat.id
     name = text or message.text
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
