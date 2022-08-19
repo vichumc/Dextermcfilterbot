@@ -1,16 +1,19 @@
 class script(object):
-    START_TXT = """Hy {},
-My name is <a href=https://t.me/{}>{}</a>,
+    START_TXT = """ʜᴇʏ {} 👋,
+ᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a> 🕷,
 
-I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬"""
+ɪ'ᴍ ᴀɴ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ꜰᴇᴀᴛᴜʀᴇꜱ!!
+ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 
+ɪ ᴘʀᴏᴠɪᴅᴇꜱ ᴡɪᴅᴇʀᴀɴɢᴇ ᴏꜰ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ 🎬
+🖥ᴄᴏɴᴛʀᴏʟʟᴇᴅ ʙʏ @Alluvichu 🤩"""
     HELP_TXT = """HEY {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """🐶 My Name: {} 
-👑 Creator: <a href=https://t.me/alluvichu>Dark Hunter ❦</a>
+    ABOUT_TXT = """🎭 My Name: {} 
+👑 Creator: <a href=https://t.me/alluvichu>Dark Hunter ᡧ</a>
 ⚖ Library: Pyrogram
 🎀 Language: Python 3
 ⚙ Build status: v1.0.1 [ Beta ]"""
-    SOURCE_TXT = """<b>📌 NOTE:</b> Dexter is a Private project 🔒  
+    SOURCE_TXT = """<b>📌 NOTE:</b> 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ is a Private project 🔒  
 
 <b> 👑 OWNER:</b> <a href=https://t.me/alluvichu>Dark Hunter ❦</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
@@ -18,7 +21,7 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
 - Filter is the feature were users can set automated replies for a particular keyword and Dexter will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Dexter should have admin privillage.
+1. 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -29,11 +32,11 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Dexter Supports both url and alert inline buttons.
+- 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Dexter supports buttons with any telegram media type.
+2. 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -44,7 +47,7 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
+1. Make 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ as admin of your channel if it's private.
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
@@ -64,7 +67,7 @@ I AM A MOVIE BOT!! Just add me to your groups and request Movies/Series 😍🎬
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Dexter
+these are the extra features of 𝙎𝙥𝙞𝙙𝙚𝙮 ᡧ
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
