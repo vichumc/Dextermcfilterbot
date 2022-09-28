@@ -639,7 +639,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is What I Found For Your Query {query}"
+        cap = f"Here is What I Found For Your Query {search}"
     if imdb and imdb.get('poster'):
         try:
             msg1 = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
@@ -667,7 +667,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in this name!! Check the spelling.")
+        k = await msg.reply("Requested Movie/Series not available 😓.")
         await asyncio.sleep(8)
         await k.delete()
         return
