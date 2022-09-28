@@ -639,7 +639,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is What I Found For Your Query {search}"
+        cap = f"Here is What I Found For Your Query {query}"
     if imdb and imdb.get('poster'):
         try:
             msg1 = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
