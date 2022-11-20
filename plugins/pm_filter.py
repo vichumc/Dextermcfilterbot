@@ -756,5 +756,5 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         await asyncio.sleep(5)
-        await reply_text.delete()
+        await text.delete()
         return
