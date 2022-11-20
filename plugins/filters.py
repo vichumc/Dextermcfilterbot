@@ -105,6 +105,8 @@ async def addfilter(client, message):
             btn = "[]"
             alert = None
     else:
+      await message.sleep(5)
+        await message.delete()
         return
 
     await add_filter(grp_id, text, reply_text, btn, fileid, alert)
