@@ -653,7 +653,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         msg1 = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
      
-    await asyncio.sleep(300)
+    await asyncio.sleep(200)
     await msg1.delete()
 
     if spoll:
@@ -668,7 +668,7 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         k = await msg.reply("Requested Movie/Series not available 😓.")
-        await asyncio.sleep(8)
+        await asyncio.sleep(10)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE) # look for imdb / wiki results
@@ -740,7 +740,7 @@ async def manual_filters(client, message, text=False):
                              disable_web_page_preview=True,
                              reply_to_message_id=reply_id
                             )
-                            await asyncio.sleep(5)
+                            await asyncio.sleep(200)
                             await dd.edit(f"\n \n⚙️ Result  Closed ️")
                         else:
                             button = eval(btn)
@@ -759,7 +759,7 @@ async def manual_filters(client, message, text=False):
                                 reply_markup=InlineKeyboardMarkup(button),
                                 reply_to_message_id = reply_id
                             )
-                            await asyncio.sleep(5)
+                            await asyncio.sleep(200)
                             await mm.edit(f"\n \n⚙️ Result  Closed ️")
                     elif btn == "[]":
                         await client.send_cached_media(
