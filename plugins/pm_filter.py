@@ -755,4 +755,6 @@ async def manual_filters(client, message, text=False):
                     logger.exception(e)
                 break
     else:
-        await reply_text.delete(5)
+        await asyncio.sleep(5)
+        await reply_text.delete()
+        return
